@@ -2,22 +2,57 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+    ofSetFrameRate(60);
+    ofSetVerticalSync(true);
+    ofBackground(0, 0, 0);
+    
+    mCam.setup();
+    mCam.setCamSpeed(0.1); // set camera speed (0 - 1)
+    
+    
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+    mCam.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    
+    cam.begin();
+    
+    
+    
+    ofSetColor(255);
+    ofFill();
+    const int size = 5;
+    const int exp = 75;
+    for (int i = -size; i < size; i++) {
+        for (int j = -size; j < size; j++) {
+            for (int k = -size; k < size; k++) {
+                ofRect(i * exp, j * exp, k * exp, 2, 2);
+            }
+        }
+    }
+    
+    cam.end();
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-
+    
+    if (key ==' ') {
+        mCam.setRandomPos();
+    }
+    
+    if (key == '1') {
+        Cam1 =! Cam1;
+    }
+    
+    if (key == '2') {
+        Cam2 =! Cam2;
+    }
 }
 
 //--------------------------------------------------------------

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EF2A5BD9-5371-4BD8-8830-6A85002B0909</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EasingCamTEST</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C0FABDC645FD7831E27A9CE4E9FC4404E0E817F</key>
+		<string>https://github.com/craftweak/EasingCamTEST.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EasingCamTEST.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C0FABDC645FD7831E27A9CE4E9FC4404E0E817F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/craftweak/EasingCamTEST.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C0FABDC645FD7831E27A9CE4E9FC4404E0E817F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C0FABDC645FD7831E27A9CE4E9FC4404E0E817F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EasingCamTEST</string>
+		</dict>
+	</array>
+</dict>
+</plist>
