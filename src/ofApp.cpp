@@ -7,7 +7,7 @@ void ofApp::setup(){
     ofBackground(0, 0, 0);
     
     mCam.setup();
-    mCam.setCamSpeed(0.1); // set camera speed (0 - 1)
+    mCam.setCamSpeed(0.01); // set camera speed (0 - 1)
     
     
 }
@@ -20,8 +20,14 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     
-    cam.begin();
     
+    if(Cam2){
+        cam.begin();
+    }
+    else
+    {
+        mCam.begin();
+    }
     
     
     ofSetColor(255);
@@ -36,7 +42,13 @@ void ofApp::draw(){
         }
     }
     
+    ofDrawAxis(60);
+    
+    if(Cam2){
     cam.end();
+    }else{
+        mCam.end();
+    }
 }
 
 //--------------------------------------------------------------
